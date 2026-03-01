@@ -1,7 +1,7 @@
-# 🧠 CogniGraph: Prescriptive Intervention Dashboard
+# CogniGraph: Prescriptive Intervention Dashboard
 
 **Track:** Problem Statement 1 (Early Detection of Student Burnout & Dropout Risk)  
-**Submitted by:** Keertanaa (Reg No: 22MIA1172)
+**Submitted by:** Keertanaa Arulselvan (Reg No: 22MIA1172)
 
 ## Overview
 Current educational analytics suffer from the "lagging indicator" problem—universities only realize a student is burning out after they miss assignments or fail exams. Furthermore, existing AI solutions are entirely *descriptive* or *predictive*; they tell an advisor a student will fail, but offer no data-backed guidance on how to prevent it. 
@@ -10,7 +10,7 @@ Current educational analytics suffer from the "lagging indicator" problem—univ
 
 ---
 
-## 📊 Dataset Simulation Process (Mandatory Disclosure)
+## Dataset Simulation Process 
 
 Because real student behavioural data containing LMS tracking, mental health sentiment, and peer-to-peer social network interactions is highly sensitive and protected by privacy laws, this project utilizes a custom-built simulated dataset.
 
@@ -30,7 +30,7 @@ Because real student behavioural data containing LMS tracking, mental health sen
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Frontend/UI:** Streamlit
 * **Machine Learning:** Scikit-Learn (Random Forest Regressor)
 * **Explainable AI (XAI):** SHAP (SHapley Additive exPlanations)
@@ -39,16 +39,18 @@ Because real student behavioural data containing LMS tracking, mental health sen
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 1. Clone this repository.
 2. Ensure you have Python 3.9+ installed.
 3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
 4. Run the data generation and model training pipeline (Optional, pre-trained files are included):
-python generate_data.py
-python train_model.py
+    ```bash
+    python generate_data.py
+    python train_model.py
 
-5. Launch the interactive Prescriptive Dashboard:
-python -m streamlit run app.py
+6. Launch the interactive Prescriptive Dashboard:
+    ```bash
+    python -m streamlit run app.py
 
